@@ -2,7 +2,7 @@
 var assert = require('assert');
 var ErrorPlus = require('error-plus');
 
-module.export = function ijAssert(condition, message, options) {
+module.exports = function ijAssert(condition, message, options) {
 	try {
 		assert(condition, message);
 	}
